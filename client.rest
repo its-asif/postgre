@@ -1,0 +1,37 @@
+###
+
+GET http://localhost:3000/api/v1/students
+
+###
+
+GET http://localhost:3000/api/v1/students/9
+
+### 
+
+POST http://localhost:3000/api/v1/students 
+Content-type: application/json 
+
+{    
+    "name": "sample2",
+    "email" : "sample2@gmail.com",
+    "age" : 25,
+    "dob": "1934-03-16"
+}
+
+
+###
+
+DELETE http://localhost:3000/api/v1/students/10
+
+###
+
+
+PUT http://localhost:3000/api/v1/students
+Content-type: application/json 
+
+{    
+    "id" : 7,
+    "name" : "Rifat"
+}
+
+###
